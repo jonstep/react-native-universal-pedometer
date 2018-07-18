@@ -9,6 +9,8 @@ NB: This branch solves a problem, maybe not your problem so use with at your own
 ```
 npm i git+https://git@github.com/jonstep/react-native-universal-pedometer
 
+```
+
 ## Basic usage
 
 ```js
