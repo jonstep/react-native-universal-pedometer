@@ -1,6 +1,6 @@
 {
   "name": "react-native-universal-pedometer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React Native universal pedometer.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matheusmariano/react-native-universal-pedometer.git"
+    "url": "git+https://github.com/jonstep/react-native-universal-pedometer.git"
   },
   "keywords": [
     "react",
@@ -21,6 +21,6 @@
   "bugs": {
     "url": "https://github.com/matheusmariano/react-native-universal-pedometer/issues"
   },
-  "homepage": "https://github.com/matheusmariano/react-native-universal-pedometer#readme",
+  "homepage": "https://github.com/jonstep/react-native-universal-pedometer#readme",
   "dependencies": {}
 }

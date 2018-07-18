@@ -42,7 +42,12 @@ RCT_EXPORT_METHOD(queryPedometerDataBetweenDates:(NSDate *)startDate endDate:(NS
     [self.pedometer queryPedometerDataFromDate:startDate
                                         toDate:endDate
                                    withHandler:^(CMPedometerData *pedometerData, NSError *error) {
-                                       handler(@[error.description?:[NSNull null], [self dictionaryFromPedometerData:pedometerData]]);
+                                      if (error)
+                                      {
+                                        handler(@[[NSNull null]]);
+                                      } else {
+                                        handler(@[[self dictionaryFromPedometerData:pedometerData]]);
+                                      }
                                    }];
 }
 

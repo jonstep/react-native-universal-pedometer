@@ -2,6 +2,13 @@
 
 React Native pedometer support for iOS version 8.0 and higher and Android. The module is CMPedometer wrapper. More info about CMPedometer can be found in https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CMPedometer_class/
 
+NB: This branch solves a problem, maybe not your problem so use with at your own peril.
+
+## Install
+
+```
+npm i git+https://git@github.com/jonstep/react-native-universal-pedometer
+
 ## Basic usage
 
 ```js
